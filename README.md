@@ -27,5 +27,25 @@ You can't "accept/complete" future reminders, but you can navigate to previous r
 
 
 ## Technical Design:
+### Architecture Overview:
+Database: 
+- MySQL database 
+- hosted on Amazon RDS
 
+BackEnd/API-layer:
+- Express.js framework
+- Node.js run-time environment
+- Hosted on Amazon EC2 instance
+
+FrontEnd:
+- React Native framework
+- Expo for deployment & testing/debugging
+
+<img src="https://github.com/zachfrena/MinderApp/blob/main/Images/architectureOverview.JPG" width="800"/>
+
+### Notification system architecture/ data-flow diagram
+<img src="https://github.com/zachfrena/MinderApp/blob/main/Images/notificationDataFlow.JPG" width="800"/>
+
+### MySQL database relational schema
+<img src="https://github.com/zachfrena/MinderApp/blob/main/Images/dataBaseSchema.JPG" width="800"/>
 
